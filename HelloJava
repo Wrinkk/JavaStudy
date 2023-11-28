@@ -1,0 +1,14 @@
+# JavaStudy
+public class HelloJava {
+
+    public static void main(String[] args){
+        System.out.println("Hello java");
+    }// main () 메서드의 범위 끝
+} // HelloJava 클래스의 범위 
+
+HelloJava를 클래스, main()을 메서드라 하며, 차후에 학습할 예정.
+메서드의 {} 블록이 끝나면 프로그램이 종료된다. 그리고 파일명과 클래스명이 같아야 한다.
+public static void main(String[] args) = 시작점이라고 생각하면 편하다. 
+
+블록 {}이 시작되고 끝날 때마다 들여쓰기가 적용되어 있는것을 확인 할 수 있으며, 이 것은 코드를 쉽게 구분하고 이해하도록 도와주는 좋은 관례이다.
+Tab 버튼을 한번 누르면 쉽게 사용할 수 있으며, 들여쓰기를 안해도 작동에 지장은 없지만 코드읽기에는 너무안좋음.
