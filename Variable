@@ -1,4 +1,4 @@
 #package
 
   패키지는 현 단계에서는 자바 파일을 구분하기 위한 폴더로 인식. variable 라는 패기지를 만들었으면 해당 패키지가 들어가는 자바 파일 첫줄에는 package variable; 와 같은 소속된 패키지를 선언 해주어야함. (데이터 그릇과 같은 것)
-    https://github.com/Wrinkk/JavaStudy/assets/115036933/0ab61b41-b3b7-44c5-84da-814736dc3751
+https://github.com/Wrinkk/JavaStudy/issues/1#issue-2014702602
