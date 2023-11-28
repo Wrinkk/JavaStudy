@@ -8,3 +8,18 @@
 
 여러 줄 주석 (multi line comment)
 /*로 시작하고 */로 마무리. 사이의 모든 텍스트를 주석으로 처리.
+
+예시
+public class CommentJava {
+
+    public static void main(String[] args) {
+        System.out.println("hello java1"); //hello java1을 출력합니다.
+        //System.out.println("hello java2");
+
+        /*
+        System.out.println("hello java3");
+        System.out.println("hello java4");
+
+         */
+    }
+}
