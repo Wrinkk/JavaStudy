@@ -2,20 +2,21 @@ package ClassExample;
 
 public class Account {
 
-    private int balance = 0;
+    private long balance = 0;
+    private String owner;
 
     public Account() {
     }
 
 
-    public int deposit(int amount)
+    public long deposit(String owner,long amount)
     {
         balance += amount;
-        System.out.println(amount + "원 입금하였습니다. 현재 잔액: " + balance);
+        System.out.println("계좌주 명: " + owner + " " + amount + "원 입금하였습니다. 현재 잔액: " + balance);
         return balance;
     }
 
-    public int withdraw(int amount) {
+    public long withdraw(long amount) {
         if (balance >= amount)
         {
             balance -= amount;
